@@ -1,0 +1,27 @@
+diffrence betweeen error and exception?
+Error :- it is like something that is caused due to some lack of resource. Ex - Stackoverflow
+         Error basically non recoverable and program cannot handle it "we canot write code to handle it"
+Exception :- it is something which handle the normal flow of program.
+             something like: dividing something with zero(AirthmeticExceptoin,NullPointerException)
+             you can recover this/check for these thing and program can handel it.
+
+             flow char:-                        ____________>Exception ---> 1.checked(these are checked during the compile time/Exception during compile time it is a checked Exception)
+                                                |                           2.Unchecked( when compiler will not able to detect that will only be detected while the program is running)
+                                                |
+                                                |
+             object ---------> throwable -------
+                                                |
+                                                |
+                                                |____________>Error
+
+
+try -- is basically did that only try these thing means written inside the try box
+       in the block try  all thees thing
+catch -- if there is any exception throw over try then it comes inside the catch block
+finallly -- no matter what will happen it run always
+
+throw --> it is basically throwing and exception
+throws --> just used to declare exception
+
+
+"more strict exception we have to add those first"
